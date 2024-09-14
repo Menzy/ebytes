@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { db } from './Firebase';
 import { collection, addDoc } from 'firebase/firestore';
 
+// Create component
 const Create = () => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
