@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+// BlogList component
 const BlogList = ({ blogs, title }) => {
     // const blogs = props.blogs;
     const noBlogs = blogs.length === 0;
