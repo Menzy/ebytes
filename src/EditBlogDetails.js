@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { doc, updateDoc } from 'firebase/firestore';
 import { db } from './Firebase';
 
+// EditBlogDetails component
 const EditBlogDetails = () => {
     const { id } = useParams();
     const navigate = useNavigate();
