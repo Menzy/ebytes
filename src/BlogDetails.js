@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { doc, deleteDoc } from 'firebase/firestore';
 import { db } from './Firebase';
 
+// BlogDetails component
 const BlogDetails = () => {
     const { id } = useParams();
     const { data: blog, error, isPending } = useFetch(id);
