@@ -10,7 +10,7 @@ import WithNavbar from "./WithNavbar.js";
 import WithoutNavbar from "./WithoutNavbar.js";
 import { Account } from './Account.js';
 
-
+// Main blog app component
 function App() {
 
   return (
