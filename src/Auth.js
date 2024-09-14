@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 
 
-
+// Auth component
 const Auth = () => {
 
     useEffect(() => {
