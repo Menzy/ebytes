@@ -26,7 +26,9 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
+// Firestore database
 export const db = getFirestore(app);
+// Authentication
 export const auth = getAuth(app);
 
 // apiKey: process.env.REACT_APP_FIREBASE_API,

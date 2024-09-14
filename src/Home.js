@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from "./Firebase";
 
-
+// Home component
 const Home = () => {
    const { data: blogs, isPending, error } = useFetch();
     const [ user, setUser ] = useState(null);
